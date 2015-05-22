@@ -1,0 +1,6 @@
+[
+    { 
+        "request": { "body": { "name": "John Doe", "email": "john.doe@email.com" } }, 
+        "response": { "code": 201, "body": { "name": "John Doe", "email": "john.doe@email.com", "id": "a-valid-id" } } 
+    }
+]
