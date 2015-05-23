@@ -5,7 +5,7 @@ var Promise = require('bluebird');
 module.exports = function() {
     var input;
     //this.World = require('../support/world.js').World;
-    //this.World = require(process.cwd() + '/features/support/world').World;
+    this.World = require(process.cwd() + '/features/support/world').World;
     //var hooks = 
     //require('../support/hooks.js')();
     

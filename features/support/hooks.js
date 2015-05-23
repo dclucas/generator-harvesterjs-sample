@@ -27,3 +27,14 @@ var myHooks = function () {
 
 module.exports = myHooks;
 */
+
+module.exports = function() {
+  this.Before(function(callback) {
+    console.log('Before');
+    callback();
+  });
+};
+
+process.on('exit', function() {
+    console.log('exit');
+});
