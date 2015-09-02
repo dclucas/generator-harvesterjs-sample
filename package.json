@@ -5,6 +5,7 @@
     "start": "node app/index.js"
   },
   "dependencies": {
-    "harvester":"agco/harvesterjs#develop"
+    "harvester": "agco/harvesterjs#develop",
+    "http-as-promised": "^1.1.0"
   }
 }
